@@ -10,9 +10,9 @@ k_n = 3;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 fprintf(' ... ... read image file ... ... ... ....\n');
- im1   = imread('./pic/farmland_1.bmp');
- im2   = imread('./pic/farmland_2.bmp');
- im_gt = imread('./pic/farmland_gt.bmp');
+ im1   = imread('./pic/YellowRiverI_1.bmp');
+ im2   = imread('./pic/YellowRiverI_2.bmp');
+ im_gt = imread('./pic/YellowRiverI_gt.bmp');
 fprintf(' ... ... read image file finished !!! !!!\n\n');
 
 im1 = double(im1(:,:,1));
