@@ -1,8 +1,5 @@
 
-% 根据公茂果老师 GRSL12 文章实现的 Neighborhodd-based ratio 方法
-
-% Author: Gao Feng
-% Date: 2016/06/10
+% A neighborhood-based ratio approach for change detection in SAR image %
 
 function nrmap = nr(im1, im2, k)
     
@@ -39,7 +36,7 @@ function nrmap = nr(im1, im2, k)
             smax = smax + im_se2.* (im_se1 < im_se2);
             smax = sum(smax(:));
 
-            % 求均值，方差，以及lamda
+            % 姹傚潎鍊硷紝鏂瑰樊锛屼互鍙妉amda
             u    = mean(rat_se(:));        
             diat = var(rat_se(:));
             lmd  = (diat+0.001)/(u+0.001);
@@ -59,7 +56,7 @@ function nrmap = nr(im1, im2, k)
     clear j i u diat rat_se ratio smax smin lmd;
     clear im_se1 im_se2;
 
-    % 处理一下四个边上的像素
+    % 澶勭悊涓�涓嬪洓涓竟涓婄殑鍍忕礌
     tmp = nrmap(1+(k-1)/2:ylen-(k-1)/2, 1+(k-1)/2:xlen-(k-1)/2);
     u = mean(tmp(:));
     nrmap(1:1+(k-1)/2, :) = u;   nrmap(ylen-(k-1)/2:ylen, :) = u;
