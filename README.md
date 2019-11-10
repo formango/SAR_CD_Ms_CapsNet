@@ -1,5 +1,5 @@
 # SAR_CD_Ms_CapsNet
-Code for the paper"Change Detection in SAR Images Based on  Multiscale Capsule Network}"
+Code for the paper"Change Detection in SAR Images Based on  Multiscale Capsule Network"
 
 If you have any queries, please do not hesitate to contact me (gaoyunhao128@163.com  gaofeng@ouc.edu.cn .More codes can be obtained from http://feng-gao.cn 
 
