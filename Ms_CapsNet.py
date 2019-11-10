@@ -114,8 +114,8 @@ if __name__ == "__main__":
         os.makedirs(args.save_dir)
 
     # file path of SAR dataset
-    image_file = r'./data/YellowRiveI_9.mat'
-    label_file = r'./data/YellowRiveI_9_gt.mat'
+    image_file = r'./data/YellowRiverI.mat'
+    label_file = r'./data/YellowRiverI_gt.mat'
 
     data, test_shuffle_number = readdata(image_file, label_file, train_nsamples=1000, validation_nsamples=1000,
                                          windowsize=args.windowsize, istraining=True)
