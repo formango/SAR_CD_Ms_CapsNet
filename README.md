@@ -15,7 +15,7 @@ Reference Code:
 
 2.https://github.com/YushiChen/Conv-Caps-HSI-Classification
 
-CITE:
+**CITE:** 
 @ARTICLE{Gao2021_grsl,
   author={Gao, Yunhao and Gao, Feng and Dong, Junyu and Li, Heng-Chao},
   journal={IEEE Geoscience and Remote Sensing Letters}, 
