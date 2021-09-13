@@ -14,3 +14,14 @@ Reference Code:
 1.https://github.com/XifengGuo/CapsNet-Keras
 
 2.https://github.com/YushiChen/Conv-Caps-HSI-Classification
+
+CITE:
+@ARTICLE{Gao2021_grsl,
+  author={Gao, Yunhao and Gao, Feng and Dong, Junyu and Li, Heng-Chao},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={SAR Image Change Detection Based on Multiscale Capsule Network}, 
+  year={2021},
+  volume={18},
+  number={3},
+  pages={484-488},
+  doi={10.1109/LGRS.2020.2977838}}
